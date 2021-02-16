@@ -9,7 +9,7 @@ const durationField = document.getElementById('duration');
 // selected image 
 let sliders = [];
 
-let setDuration = 0;
+
 
 
 // If this key doesn't work
@@ -132,7 +132,7 @@ const createSlider = () => {
     setDuration = duration;
 
   }
-} // djsafjakfjasfj
+}
 
 const returnSlider = () => {
   changeSlide(++slideIndex);
